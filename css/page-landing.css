@@ -160,3 +160,14 @@
  
 }
 
+.list-footer {
+    padding: 3% 4%;
+}
+
+.list-footer ul {
+    width: 100%;
+}
+
+li.list-items {
+    padding: 5% 0;
+}

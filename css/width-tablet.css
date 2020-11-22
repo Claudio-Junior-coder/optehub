@@ -123,6 +123,10 @@
         width: 100%;
     }
 
+    .block-info {
+        padding: 3% 2%
+    }
+
     /* header */
 
     .btn-reunion-call {
@@ -134,8 +138,75 @@
 
     .header-container {
         margin-bottom: 10%;
+    }  
+
+    .main-content {
+        padding: 0 10%;
     }
 
+}
 
+@media screen and (min-width: 1361px ) {
+    .menu-configs {
+        margin-top: -10%;
+    }    
+
+   .info-four p {
+     font-size: 1.2em;
+   }
+
+    .info-one h1, .info-two h1, .info-three h1 , .info-eleven h1{
+        font-size: 2.2em;
+    }
+
+    .css-p, .info-eleven p, .btn-configs {
+        font-size: .8em;
+    }
+
+    .list-items-title {
+        font-size: 1.6em;
+    }
+
+    .logo {
+        width: 300px;
+        height: 300px;
+    }  
+
+    .orange-item {
+        margin-left: 40%;
+    }
+
+    .orange-item-two {
+        margin-left: 70%;
+    }
+
+    .header-container, .info-eleven {
+        margin-bottom: 5%;
+    }
+
+    .btn-reunion-call, .exeption-p-two {
+        font-size: .6em;
+    }
+    
+    .list-items a {
+        font-size: .7em;
+    }
+
+   .main-content {
+       padding: 0 15%;
+   }
+
+   .info-seven h1, .info-eight h1, .info-nine h1, .info-ten h1, .knowmore  {
+    font-size: 1em;
+   }
+
+
+   .info-five {
+       margin-bottom: 0;
+   }
+
+   .responsive-configs-icons {
+       margin-bottom: 20%;
+   }
 
 }
