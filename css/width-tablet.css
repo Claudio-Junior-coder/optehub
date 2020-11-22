@@ -1,0 +1,141 @@
+
+@media screen and (max-width: 980px ) {
+    .responsive-configs-icons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+    .info-seven, .info-eight, .info-nine, .info-ten, .info-six{
+        width: 100%;
+    }
+
+    .info-six p {
+        margin-top: -5%;
+    }
+}
+
+
+@media screen and (min-width: 980px ) {
+
+    .all-content {
+        background: url("../images/image.png") no-repeat fixed top center ;
+    }
+    
+    .css-div {
+        width: 30%;
+        margin-right: 2%;
+        float: left;
+        margin-bottom: 15%;
+    }
+
+    .info-one {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .info-two {
+        bottom: 0;
+    }
+
+    .info-three, .info-two {
+        width: 16%;
+        margin-top: 20%;
+    }
+
+    .info-four {
+        margin: 0;
+    }
+
+    .info-five {
+        margin-top: 0;
+        width: 65%;
+        text-align: left;
+    }
+
+    .info-five h1, .info-eleven h1, .info-one h1 {
+        font-size: 2em;
+    }
+
+    .info-six {
+        width: 30%;
+    }
+
+    .info-seven {
+        width: 40%;
+        text-align: left;
+        padding: 2% 3%;
+    }
+
+    .css-p, .exection-p {
+        font-weight: 600;
+    }
+
+    .info-eleven {
+        width: 100%;
+        text-align: left;
+    }
+
+    .exection-p {
+        padding: 3% 0;
+    }
+
+
+    .orange-item {
+        margin-left: 30%;
+    }
+
+    .orange-item-two {
+        margin-left: 50%;
+    }
+
+    .info-six p {
+        margin-top: -22%;    
+        font-weight: 600;    
+    }
+
+    .info-six img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .list-items a {
+       font-weight: 400;
+       font-size: .6em;
+    }
+
+    .responsive-configs-icons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: space-between;
+    }
+
+    .info-seven {
+        padding: 6% 5%;
+        height: 70%;
+    }
+
+    .info-seven, .info-eight, .info-nine, .info-ten {
+        width: 100%;
+    }
+
+    /* header */
+
+    .btn-reunion-call {
+        display: block;
+    }
+    .reunion-agendament {
+        display: none;
+    }
+
+    .header-container {
+        margin-bottom: 10%;
+    }
+
+
+
+}

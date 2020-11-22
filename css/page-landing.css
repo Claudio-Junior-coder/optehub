@@ -1,0 +1,162 @@
+.all-content {
+    width: 100%;
+    height: 100%;
+    background: url("../images/image-mobile.png") no-repeat fixed top center ;
+}
+
+.page-first-content, .main-content, .footer-content {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    padding: 3% 4%;
+    
+}
+
+.info-one h1, .info-eleven {
+    line-height: 1.2;
+}
+
+
+.btn-orange {
+    color: white;
+    background-color: #f96f1b;
+    padding: 4% 5%;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: .5em;
+}
+
+.orange-item, .orange-item-two {
+    width: 29px;
+    height: 5px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.orange-item-two {
+    margin-left: 30%;
+}
+
+.css-div, .css-div-icons  {
+    margin-bottom: 50%;
+    width: 100%;
+   /*  border: 1px solid red; */
+}
+
+
+.info-three {
+    margin-bottom: 70%;
+    /* border: 1px solid red; */
+}
+
+.css-p, .exection-p {
+    padding: 10% 0;
+    font-size: .5em;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.info-four {
+    transform: rotate(-90deg);
+    font-size: .5em;
+}
+
+
+.info-four img {
+    height: 3px;
+    width: 50px;
+}
+
+.info-five {
+    margin-top: 80%;
+    text-align: center;
+}
+
+.info-six img {
+    width: 270px;
+    height: 270px;
+}
+
+.info-six p  {
+    font-size: .5em;
+    margin-top: -10%;
+}
+
+.info-seven {
+    border: 1px solid white;
+    padding: 7% 0;
+    border-bottom: 4px solid #f96f1b;    
+}
+
+.color-orange {
+    color: #f96f1b;
+}
+
+.size-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.block-info {
+    background-color: #342c27;
+    padding: 20% 5%;
+}
+
+.block-info h5 {
+    font-weight: 400;
+}
+
+.btn-togo-website {
+    margin-top: 10%;
+    margin-bottom: 50%;
+    color: white;
+    background-color: #63564e;
+    padding: 4% 5%;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: .5em;
+}
+
+.list-footer {
+    margin-top: 20%;    
+}
+
+.list-footer a {
+    color: white;
+}
+
+.list-items-title a {
+    font-size: .6em;
+    font-weight: 800;
+}
+
+.list-footer li{
+    list-style: none;
+    text-align: left;
+}
+
+.list-items a{   
+    font-size: .5em;
+    font-weight: 200;
+    padding: 5% 0%;    
+}
+
+.icon-redes {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.responsive-configs {
+    padding: 3% 2%;
+}
+
+.info-seven h1 {
+   font-size: .5em;
+}
+
+.info-eight h1, .info-nine h1, .info-ten h1 {
+    font-size: .4em;
+ 
+}
+
