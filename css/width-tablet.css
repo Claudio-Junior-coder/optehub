@@ -1,5 +1,10 @@
 
 @media screen and (max-width: 980px ) {
+    .style-form {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 2fr;
+    }
+
     .responsive-configs-icons {
         width: 100%;
         display: grid;

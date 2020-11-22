@@ -1,5 +1,24 @@
 /* For resolutions > 510px */
 
+@media screen and (max-width: 509px ) {
+    .form-group, .form-group input {
+        width: 200px;
+    }
+
+    .ajust-form h3 {
+        font-size: .7em;
+    }
+
+    .form-group label {
+        font-size: .5em;
+    }
+
+    .btn-join, .btn-register {
+        font-size: .7em;
+    }
+}
+
+
 @media screen and (min-width: 510px ) {
 
     .all-content {
@@ -122,4 +141,5 @@
     .btn-reunion-call {
         display: none;
     }
+    
 }
