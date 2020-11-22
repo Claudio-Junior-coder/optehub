@@ -3,13 +3,14 @@
 @media screen and (max-width: 509px ) {
     .form-group, .form-group input {
         width: 200px;
+        font-size: .7em;
     }
 
     .ajust-form h3 {
         font-size: .7em;
     }
 
-    .form-group label {
+    .form-group label, .info-register {
         font-size: .5em;
     }
 

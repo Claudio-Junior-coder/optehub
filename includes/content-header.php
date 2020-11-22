@@ -11,8 +11,9 @@
     <nav class="menu">
         <a class="btn-close"><img src="../images/close-menu.png" alt="Optehub item"></a>
         <ul>
+            <li><a href="../app/home-page.php">Inicio</a></li>
             <li><a href="../app/login-register.php">Logar / Cadastrar</a></li>
-            <li><a href="#">Administrar</a></li>
+            <li><a href="../app/dashboard.php">Administrar</a></li>
             <li class="reunion-agendament"><a href="#">Agendar Reunião Online</a></li>
         </ul>
     </nav>
