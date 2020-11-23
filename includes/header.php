@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/page-landing.css">
     <link rel="stylesheet" href="../css/login-register.css">   
+    <link rel="stylesheet" href="../css/dashboard.css">   
 
     <link rel="stylesheet" href="../css/width-mobile.css">
     <link rel="stylesheet" href="../css/width-tablet.css">

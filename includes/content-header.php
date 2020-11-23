@@ -1,5 +1,5 @@
 <header class="header-container">
-    <a href="#"> <img class="logo" src="../images/logo.png" alt="Logo Optehub"> </a>
+    <a href="../app/home-page.php"> <img class="logo" src="../images/logo.png" alt="Logo Optehub"> </a>
     <div class="menu-configs">
         <div>
             <a class="btn-reunion-call">AGENDAR REUNIÃO ONLINE</a>

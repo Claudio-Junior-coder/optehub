@@ -87,7 +87,7 @@
 
     <section>
         <div class="css-div block-info">
-            <h5 class="color-orange">ADESÃO</h5>
+            <h5 class="color-orange uppercase">adesão</h5>
             <p class="css-p">Cadastro completo de pessoas físicas e
                 jurídicas, Pessoas Politicamente
                 Expostas, Opções Tributárias. Geração

@@ -17,6 +17,12 @@
     .btn-join, .btn-register {
         font-size: .7em;
     }
+
+    .name-user {
+        font-size: .5em;
+        margin: 10% 0;
+    }
+   
 }
 
 

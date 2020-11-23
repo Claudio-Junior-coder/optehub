@@ -110,6 +110,10 @@ body, input, button, textarea {
     font-weight: 400;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .btn-togo-website {
     margin-top: 10%;
     margin-bottom: 50%;

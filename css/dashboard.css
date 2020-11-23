@@ -1,0 +1,136 @@
+.dashboard {
+    padding: 4%;    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bg-dashboard{
+	background-color: #621708;
+    padding: 5%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td, .table th{
+  padding:12px 15px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	background-color: #f96f1b;
+	color:#ffffff;
+}
+
+.table tbody tr{
+	background-color: #ffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+
+.table tbody tr td{
+    color: #000;
+    font-weight: 500;
+    
+}
+
+.btn-logout {
+    margin-top: 10%;
+    color: white;
+    background-color:  #f96f1b;
+    padding: 1% 3%;
+    border-radius: 10px;
+    font-size: .7em;
+}
+div.btn-post {
+    display: grid;
+    grid-template-rows: 1fr 50%;
+}
+
+.btn-post button {
+    margin-top: 10%;
+    color: white;
+    background-color:  #f96f1b;
+    padding: 3% 5%;
+    border-radius: 10px;
+    font-size: .7em;
+    grid-row: 2;
+}
+
+.div-post-form {
+    padding: 5% 0;
+}
+
+.div-post-form h3 {
+    margin-bottom: 5%;
+}
+
+
+.form-post {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.form-group-post label {
+    font-size: .8em;
+}
+
+.form-control-post {
+    outline: none;
+}
+
+
+#description, #title {
+    margin-top: 2%;
+    width: 100%;
+    font-size: 14px;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+}
+
+#title {
+    min-height: 35px;
+}
+
+#description {
+    min-height: 80px;
+    resize: none;
+}
+
+.logout {
+    margin-top: 5%;
+}
+.ajust-dash {
+    margin-bottom: 3%;
+}
+
+.btn-edit-post, .btn-delete-post {
+    font-size: 1em;
+    color: white;
+    padding: 3% 5%;
+    border-radius: 10px;
+}
+
+.btn-edit-post {
+    background-color: #003049;
+}
+
+.btn-delete-post {
+    background-color: #d62828;
+}
+
+.name-user {
+    font-size: .8em;
+    margin: 5% 0;
+}
