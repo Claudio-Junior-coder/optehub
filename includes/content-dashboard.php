@@ -100,7 +100,7 @@
                 </div>
                 <div class="form-group-post">
                     <label for="description">Descrição:</label>
-                    <textarea  maxlength="145" type="text" class="form-control-post" id="description" name="description" ><?php  echo $descriptionEdit; ?></textarea>
+                    <textarea  maxlength="250" type="text" class="form-control-post" id="description" name="description" ><?php  echo $descriptionEdit; ?></textarea>
                 </div>
                 <div class="btn-post">
                     <?php

@@ -1,7 +1,3 @@
-body, input, button, textarea {
-    font: 400 1.8rem/1 'Montserrat', sans-serif;
-}
-
 .all-content {
     width: 100%;
     height: 100%;
@@ -42,7 +38,7 @@ body, input, button, textarea {
 }
 
 .css-div, .css-div-icons  {
-    margin-bottom: 50%;
+    margin-bottom: 50%; 
     width: 100%;
    /*  border: 1px solid red; */
 }
@@ -58,6 +54,13 @@ body, input, button, textarea {
     font-size: .5em;
     font-weight: 200;
     line-height: 1.5;
+}
+
+.p-post {
+    padding: 10% 0;
+    font-size: .3em;
+    font-weight: 200;
+    line-height: 1.2; 
 }
 
 .info-four {
@@ -84,6 +87,7 @@ body, input, button, textarea {
 .info-six p  {
     font-size: .5em;
     margin-top: -10%;
+    line-height: 1.2;
 }
 
 .info-seven {
@@ -93,25 +97,16 @@ body, input, button, textarea {
 }
 
 .color-orange {
-    color: #f96f1b;
+    color: #f96f1b !important;
+}
+
+.color-white {
+    color: white;
 }
 
 .size-icon {
     width: 70px;
     height: 70px;
-}
-
-.block-info {
-    background-color: #342c27;
-    padding: 20% 5%;
-}
-
-.block-info h5 {
-    font-weight: 400;
-}
-
-.uppercase {
-    text-transform: uppercase;
 }
 
 .btn-togo-website {
@@ -157,7 +152,19 @@ body, input, button, textarea {
 
 .responsive-configs {
     padding: 3% 2%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items:center;       
+    justify-content: space-between;
 }
+
+.center-logo {
+    display: flex;
+    align-items: center;
+}
+
 
 .info-seven h1 {
    font-size: .5em;
@@ -178,4 +185,37 @@ body, input, button, textarea {
 
 li.list-items {
     padding: 5% 0;
+}
+
+.content-database {
+    padding: 10 20px;
+    float: left;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.block-info {
+    background-color: #342c27;
+    padding: 20% 5%;
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 360px;
+    margin-bottom: 2%;
+    display: inline-block;
+    vertical-align:top;
+    margin-right: -1%;
+    word-wrap: break-word;
+    text-align: left;    
+}
+
+.block-info:nth-child(even) {
+    background-color: #2d1f16;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .6em;
+    letter-spacing: 3px;
+    padding: 3% 0;
 }

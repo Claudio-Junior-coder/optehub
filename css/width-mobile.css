@@ -22,6 +22,29 @@
         font-size: .5em;
         margin: 10% 0;
     }
+
+    .block-info {
+        margin-bottom: 3%;      
+        min-width: 99%;
+        margin-right: 0;
+    }
+
+    .content-database {
+        padding: 10px 3px;
+        margin: 15% 0;
+    }
+
+    .p-post {
+        font-size: .6em;
+    }
+
+    .responsive-configs {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 15% 1fr 1fr 1fr !important;
+        justify-items:start !important;       
+        align-items: start !important;
+        justify-content: start !important;
+    }
    
 }
 
@@ -32,9 +55,12 @@
         background: url("../images/image-tablet.png") no-repeat fixed top center ;
     }
 
-    .css-p, .exection-p {
-        font-size: .6em;
+    .p-post {
+        font-size: .7em;
     }
+
+    .css-p, .exection-p {
+        font-size: .6em;    }
 
     .css-div {
         width: 48%;
@@ -76,12 +102,11 @@
 
     .info-eleven {
         width: 100%;
-    }
+    } 
 
-    .responsive-configs {
+    .center-logo {
         display: flex;
-        justify-content: space-between;
-        padding: 3% 5%;
+        align-items: center;
     }
 
     .responsive-configs-icons {

@@ -1,5 +1,17 @@
 
 @media screen and (max-width: 980px ) {
+
+    .responsive-configs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items:center;       
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
     .style-form {
         grid-template-columns: 1fr ;
         grid-template-rows: 2fr;
@@ -76,6 +88,15 @@
         font-size: .9em;
         padding: 2% 3%;
     }
+
+    .block-info { 
+        max-width: 49%;
+    }
+
+    .p-post {
+        font-size: .5em;
+    }
+
 }
 
 
@@ -130,10 +151,6 @@
         padding: 2% 3%;
     }
 
-    .css-p, .exection-p {
-        font-weight: 600;
-    }
-
     .info-eleven {
         width: 100%;
         text-align: left;
@@ -185,8 +202,17 @@
     }
 
     .block-info {
-        padding: 3% 2%
+        padding: 3% 3%;
     }
+
+    .main-content {
+        padding: 0 10%;
+    }
+
+    .p-post {
+        font-size: .6em;
+    }
+
 
     /* header */
 
@@ -201,9 +227,9 @@
         margin-bottom: 10%;
     }  
 
-    .main-content {
-        padding: 0 10%;
-    }
+    
+
+    
 
 }
 
@@ -221,7 +247,11 @@
     }
 
     .css-p, .info-eleven p, .btn-configs {
-        font-size: .8em;
+        font-size: .7em;
+    }
+
+    .p-post {
+        font-size: 7.em;
     }
 
     .list-items-title {

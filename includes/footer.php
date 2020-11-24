@@ -1,11 +1,13 @@
 <footer class="footer-content">
     <section>
         <hr>
-        <div>
-            <a href="#"> <img class="logo" src="../images/logo.png" alt="Logo Optehub"> </a>
-        </div>
+        
 
         <div class="responsive-configs">
+            <div class="center-logo">
+                <a href="#"> <img class="logo" src="../images/logo.png" alt="Logo Optehub"> </a>
+            </div>
+            
             <div class="list-footer">
                 <ul>
                     <li class="list-items-title"><a href="#">SOLUÇÕES</a></li>

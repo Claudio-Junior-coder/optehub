@@ -42,7 +42,7 @@
 
         <div class="css-div info-six">
             <img src="../images/text-1b.png" alt="Optehub 1bi text">
-            <p>Com o OPTE+ sua Entidade ganha escala e <br>
+            <p>Com o OPTE+ sua Entidade ganha escala e
                 pode focar na sustentabilidade no negócio</p>
         </div>
     </section>
@@ -85,14 +85,38 @@
         </div>
     </section>
 
-    <section>
-        <div class="css-div block-info">
-            <h5 class="color-orange uppercase">adesão</h5>
-            <p class="css-p">Cadastro completo de pessoas físicas e
-                jurídicas, Pessoas Politicamente
-                Expostas, Opções Tributárias. Geração
-                de dados DPREV.</p>
-        </div>
+    <section class="content-database">
+
+        <?php
+
+        require("../configs/connection.php");
+        $query = $conn->prepare("SELECT * FROM posts");
+        $query->execute();
+
+        $posts = $query->fetchAll(PDO::FETCH_ASSOC);
+        $orange = true;
+
+        for ($i = 0; $i < sizeof($posts); $i++) :
+            $currentPost = $posts[$i];
+
+            $color = ($orange ? "color-orange" : "color-white");
+
+        ?>
+
+            <div class="block-info">
+                <?php
+                if ($i % 3 === 2) {
+                    $orange = !$orange;
+                    echo '<h5 class="uppercase ' . $color . '">' . $currentPost["title"] . "</h5>";
+                } else {
+                    echo '<h5 class="uppercase ' . $color . '">' . $currentPost["title"] . "</h5>";
+                }
+                ?>
+                <p class="p-post"><?php echo $currentPost["description"]; ?></p>
+            </div>
+
+        <?php endfor ?>
+
     </section>
 
     <section>

@@ -9,13 +9,12 @@
 }
 
 .container-form {
-    background-color: #63564e;
+    background-color: #621708;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2%;
     margin: 5%;
-    border: 2px solid #612703;
     border-radius: 10px;
 }
 
@@ -29,6 +28,8 @@
     margin: 4% 0;
     text-align: left;
     font-size: .8em; 
+    border-radius: 5px;
+    border: none;
 }
 
 .form-control {
